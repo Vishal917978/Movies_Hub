@@ -1,5 +1,5 @@
 .back{
-    background-image: url("annie-spratt-yI3weKNBRTc-unsplash.jpg");
+    background-image: url("..//image/annie-spratt-yI3weKNBRTc-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 1510px;
@@ -15,7 +15,7 @@
         display: flex;
         flex-wrap: wrap; /* to allow wrapping on small screens */
         gap: 20px; /* spacing between cards */
-        justify-content: center; /* center horizontally */
+        justify-content: center; 
         padding: 20px;
 
 }

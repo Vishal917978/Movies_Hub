@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../image/logo.png';
-
+import "./Nav1.css"
 
 function NavScrollExample() {
   return (
@@ -16,9 +16,9 @@ function NavScrollExample() {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="me-auto my-2 my-lg-0"
+            className="me-auto my-2 my-lg-0  pages"
             style={{ maxHeight: '100px' }}
-            navbarScroll
+            navbarScroll  
           >
             <Nav.Link href="#action1">Home</Nav.Link>
             <Nav.Link href="#action2">Tv Shows</Nav.Link>
@@ -42,6 +42,11 @@ function NavScrollExample() {
 }
 
 export default NavScrollExample;
+
+
+
+//========for updated nav bar with working search bar===========
+
 
 // import React, { useState } from "react";
 // import './Nav1.css';

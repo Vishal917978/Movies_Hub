@@ -5,14 +5,16 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     margin-top: 20px;
-
-
+    transition: transform 0.3s ease;
 }
+.card:hover {
+    transform: rotate(1deg) scale(1.03);
+  }
 .card img{
     background-repeat: no-repeat;
     width: 300px;
     height: 300px;
-    color: white;
+    /* color: white; */
 }
 .card p{
     background-color: whitesmoke;

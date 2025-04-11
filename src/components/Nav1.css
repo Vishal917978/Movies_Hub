@@ -1,4 +1,11 @@
 /* General Navbar Styles */
+.pages{
+  padding-left: 50px;
+}
+
+
+
+
 nav {
     background-color: #333;
     color: #fff;
