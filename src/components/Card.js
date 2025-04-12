@@ -3,7 +3,7 @@ import StaticExample from './Card_Details';
 import 'bootstrap/dist/css/bootstrap.min.css';
 function BasicExample2(Props) {
   return (
-    <div className="card " onClick={StaticExample}>
+    <div className="card " >
       <div className="image ">
         <img src={Props.data.Poster} alt="image"></img>
       </div>
@@ -14,6 +14,10 @@ function BasicExample2(Props) {
   );
 }
 export default BasicExample2;
+
+
+BasicExample2.jsx
+
 
 
 //  ======for modal popup=======

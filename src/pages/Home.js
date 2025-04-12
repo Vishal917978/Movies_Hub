@@ -63,11 +63,11 @@ import { useEffect } from "react";
 
 function Home() {
   const [Data1, setData1] = useState([]);
+  let [year,setYear]=useState(2024);
 
   // Fetch data inside useEffect
   useEffect(() => {
     async function fetchUser() {
-
       const url = "http://omdbapi.com/?apikey=4e9e8ed7&s=series";
       const userResult = await axios.get(url);
       console.log(userResult, "<=====result");
